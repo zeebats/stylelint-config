@@ -1,7 +1,10 @@
 /* eslint-disable unicorn/prefer-module */
 
 module.exports = {
-    extends: 'stylelint-config-standard',
+    extends: [
+        'stylelint-config-standard',
+        'stylelint-config-html',
+    ],
     plugins: ['stylelint-order'],
     rules: {
         'at-rule-no-vendor-prefix': true,
@@ -96,6 +99,19 @@ module.exports = {
         'selector-max-id': 0,
         'selector-no-qualifying-type': true,
         'selector-no-vendor-prefix': true,
+        'selector-pseudo-class-no-unknown': [
+            true,
+            {
+                ignorePseudoClasses: ['global', 'local'],
+            },
+        ],
+        'selector-type-no-unknown': [
+            true,
+            {
+                ignore: ['custom-elements'],
+                ignoreTypes: [/\^+/],
+            },
+        ],
         'shorthand-property-no-redundant-values': true,
         'string-quotes': 'single',
         'value-no-vendor-prefix': true,

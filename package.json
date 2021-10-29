@@ -5,8 +5,7 @@
   "keywords": [
     "stylelint",
     "stylelintconfig",
-    "postcss",
-    "sass"
+    "postcss"
   ],
   "repository": "https://github.com/zeebats/stylelint-config",
   "license": "MIT",
@@ -14,9 +13,7 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "postcss.js",
-    "README.md",
-    "sass.js"
+    "README.md"
   ],
   "scripts": {
     "eslint": "eslint '**/*.js'",
@@ -34,8 +31,10 @@
     "simple-git-hooks": "2.7.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.0.0",
-    "stylelint-config-standard": ">=22.0.0",
-    "stylelint-order": ">=4.0.0"
+    "postcss-html": ">=1.2.0",
+    "stylelint": ">=14.0.0",
+    "stylelint-config-html": ">=1.0.0",
+    "stylelint-config-standard": ">=23.0.0",
+    "stylelint-order": ">=5.0.0"
   }
 }
