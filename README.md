@@ -1,9 +1,9 @@
 # @zeebats/stylelint-config
 
 <p align="center">
-    <img src="https://img.shields.io/badge/release-2.0.x-orange?style=for-the-badge" alt="Release">
-    <img src="https://img.shields.io/badge/stylelint-%5E13.x-000?style=for-the-badge" alt="Stylelint">
-    <a href="https://www.npmjs.com/package/@zeebats/stylelint-config"><img src="https://img.shields.io/npm/v/@zeebats/stylelint-config.svg?style=for-the-badge" alt="NPM version"></a>
+    <img src="https://img.shields.io/badge/release-1.0.x-informational" alt="Release">
+    <img src="https://img.shields.io/badge/stylelint-%5E14.x-informational" alt="Stylelint">
+    <a href="https://www.npmjs.com/package/@zeebats/stylelint-config"><img src="https://img.shields.io/npm/v/@zeebats/stylelint-config.svg" alt="NPM version"></a>
 </p>
 
 This is a shareable config for [Stylelint](https://stylelint.io/). All the rules and configurations are already set. Rules can be overridden if needed.
