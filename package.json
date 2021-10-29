@@ -1,0 +1,41 @@
+{
+  "name": "@zeebats/stylelint-config",
+  "version": "1.0.0",
+  "description": "Stylelint sharable config for Zeebats projects",
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "postcss",
+    "sass"
+  ],
+  "repository": "https://github.com/zeebats/stylelint-config",
+  "license": "MIT",
+  "author": "Zeebats",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "postcss.js",
+    "README.md",
+    "sass.js"
+  ],
+  "scripts": {
+    "eslint": "eslint '**/*.js'",
+    "eslint:fix": "npm run eslint -- --fix",
+    "update:interactive": "npx npm-check -uE"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/eslint-parser": "7.15.8",
+    "@bitfactory/eslint-config": "1.2.0",
+    "eslint": "8.1.0",
+    "eslint-plugin-jsdoc": "37.0.3",
+    "eslint-plugin-unicorn": "37.0.1",
+    "lint-staged": "11.2.6",
+    "simple-git-hooks": "2.7.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-standard": ">=22.0.0",
+    "stylelint-order": ">=4.0.0"
+  }
+}
