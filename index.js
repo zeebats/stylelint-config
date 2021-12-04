@@ -25,14 +25,6 @@ module.exports = {
                 severity: 'warning',
             },
         ],
-        'declaration-property-unit-disallowed-list': [
-            {
-                'font-size': ['px', 'em'],
-            },
-            {
-                severity: 'warning',
-            },
-        ],
         'declaration-property-value-disallowed-list': {
             'border': ['none'],
             'border-bottom': ['none'],
@@ -91,8 +83,7 @@ module.exports = {
         'selector-class-pattern': [
             '^[a-z0-9\\-]+$',
             {
-                message:
-                'Selector should be written in lowercase with hyphens (selector-class-pattern)',
+                message: 'Selector should be written in lowercase with hyphens (selector-class-pattern)',
             },
         ],
         'selector-max-compound-selectors': 3,
