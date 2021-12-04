@@ -1,0 +1,6 @@
+{
+  "extends": ["@zeebats"],
+  "rules": {
+    "sort-keys": "error"
+  }
+}
