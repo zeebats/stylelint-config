@@ -1,7 +1,7 @@
 /* eslint-disable unicorn/prefer-module */
 
 module.exports = {
-    extends: ['@bitfactory'],
+    extends: ['@zeebats'],
     rules: {
         'sort-keys': 'error',
     },
