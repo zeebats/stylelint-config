@@ -1,9 +1,12 @@
 /* eslint-disable unicorn/prefer-module */
 
 module.exports = {
-    extends: [
-        'stylelint-config-standard',
-        'stylelint-config-html',
+    extends: ['stylelint-config-standard'],
+    overrides: [
+        {
+            customSyntax: 'postcss-html',
+            files: ['*.vue', '**/*.vue'],
+        },
     ],
     plugins: ['stylelint-order'],
     rules: {
