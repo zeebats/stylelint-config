@@ -10,7 +10,6 @@ module.exports = {
     ],
     plugins: ['stylelint-order'],
     rules: {
-        'at-rule-no-vendor-prefix': true,
         'color-named': 'never',
         'declaration-block-no-redundant-longhand-properties': [
             true,
@@ -21,15 +20,9 @@ module.exports = {
         'declaration-block-semicolon-newline-after': 'always',
         'declaration-no-important': true,
         'declaration-property-value-disallowed-list': {
-            'border': ['none'],
-            'border-bottom': ['none'],
-            'border-left': ['none'],
-            'border-right': ['none'],
-            'border-top': ['none'],
+            '/^border/': ['none'],
         },
-        'font-family-name-quotes': 'always-where-recommended',
         'font-weight-notation': 'numeric',
-        'function-url-quotes': 'always',
         'indentation': 4,
         'max-nesting-depth': [
             4,
@@ -43,7 +36,6 @@ module.exports = {
                 ],
             },
         ],
-        'media-feature-name-no-vendor-prefix': true,
         'no-descending-specificity': null,
         'order/order': [
             [
@@ -68,17 +60,15 @@ module.exports = {
             ],
         ],
         'order/properties-alphabetical-order': true,
-        'property-no-vendor-prefix': true,
         'selector-class-pattern': [
             '^[a-z0-9\\-]+$',
             {
-                message: 'Selector should be written in lowercase with hyphens (selector-class-pattern)',
+                message: 'Selector should be written in lowercase with hyphens',
             },
         ],
         'selector-max-compound-selectors': 3,
         'selector-max-id': 0,
         'selector-no-qualifying-type': true,
-        'selector-no-vendor-prefix': true,
         'selector-pseudo-class-no-unknown': [
             true,
             {
@@ -92,8 +82,6 @@ module.exports = {
                 ignoreTypes: [/\^+/],
             },
         ],
-        'shorthand-property-no-redundant-values': true,
         'string-quotes': 'single',
-        'value-no-vendor-prefix': true,
     },
 };
