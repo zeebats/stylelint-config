@@ -76,12 +76,6 @@ module.exports = {
             ],
         ],
         'order/properties-alphabetical-order': true,
-        'property-disallowed-list': [
-            'float',
-            {
-                severity: 'warning',
-            },
-        ],
         'property-no-vendor-prefix': true,
         'selector-class-pattern': [
             '^[a-z0-9\\-]+$',
