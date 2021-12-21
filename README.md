@@ -1,7 +1,7 @@
 # @zeebats/stylelint-config
 
 <p align="center">
-    <img src="https://img.shields.io/badge/stylelint-%5E14-blue" alt="Stylelint">
+    <img src="https://img.shields.io/badge/stylelint-%5E14-brightgreen" alt="Stylelint">
     <a href="https://www.npmjs.com/package/@zeebats/stylelint-config"><img src="https://img.shields.io/npm/v/@zeebats/stylelint-config.svg" alt="NPM version"></a>
 </p>
 
