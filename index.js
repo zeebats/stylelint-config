@@ -37,6 +37,7 @@ module.exports = {
             },
         ],
         'no-descending-specificity': null,
+        'number-max-precision': 6,
         'order/order': [
             [
                 'custom-properties',
