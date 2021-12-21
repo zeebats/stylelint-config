@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.16.5",
-    "@babel/eslint-parser": "7.16.3",
+    "@babel/eslint-parser": "7.16.5",
     "@zeebats/eslint-config": "1.0.0",
     "eslint": "8.5.0",
     "eslint-plugin-jsdoc": "37.1.0",
