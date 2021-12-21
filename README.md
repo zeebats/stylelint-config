@@ -1,7 +1,6 @@
 # @zeebats/stylelint-config
 
 <p align="center">
-    <img src="https://img.shields.io/badge/release-1.0.x-brightgreen" alt="Release">
     <img src="https://img.shields.io/badge/stylelint-%5E14-blue" alt="Stylelint">
     <a href="https://www.npmjs.com/package/@zeebats/stylelint-config"><img src="https://img.shields.io/npm/v/@zeebats/stylelint-config.svg" alt="NPM version"></a>
 </p>
@@ -12,9 +11,10 @@ This is a shareable config for [Stylelint](https://stylelint.io/). All the rules
 - [Turning off rules](#firecracker-turning-off-rules)
 - [CLI usage](#rocket-cli-usage)
 - [Editor / IDE integration](#pencil2-editor--ide-integration)
-- [Visual Studio Code](#visual-studio-code)
-    - [Autofix](#autofix)
-    - [Additional Extensions](#additional-extensions)
+    - [Visual Studio Code](#visual-studio-code)
+        - [Autofix](#autofix)
+        - [File Associations](#file-associations)
+        - [Additional Extensions](#additional-extensions)
 
 ## :package: Installing
 
@@ -88,6 +88,20 @@ If you want Visual Studio Code to autofix your code on save, add this snippet to
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   }
+}
+```
+
+#### File Associations
+
+The Stylelint extension only lints CSS and PostCSS files out of the box. If you want to lint other files like `.vue`, add this snippet to your `settings.json` file:
+
+```json
+{
+  "stylelint.validate": [
+    "css",
+    "postcss",
+    "vue"
+  ]
 }
 ```
 
