@@ -8,14 +8,13 @@
 
 This is a shareable config for [Stylelint](https://stylelint.io/). All the rules and configurations are already set. Rules can be overridden if needed.
 
-- [@zeebats/stylelint-config](#zeebatsstylelint-config)
-  - [Installing](#package-installing)
-  - [Turning off rules](#firecracker-turning-off-rules)
-  - [CLI usage](#rocket-cli-usage)
-  - [Editor / IDE integration](#pencil2-editor--ide-integration)
-    - [Visual Studio Code](#visual-studio-code)
-      - [Autofix](#autofix)
-      - [Additional Extensions](#additional-extensions)
+- [Installing](#package-installing)
+- [Turning off rules](#firecracker-turning-off-rules)
+- [CLI usage](#rocket-cli-usage)
+- [Editor / IDE integration](#pencil2-editor--ide-integration)
+- [Visual Studio Code](#visual-studio-code)
+    - [Autofix](#autofix)
+    - [Additional Extensions](#additional-extensions)
 
 ## :package: Installing
 

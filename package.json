@@ -4,7 +4,7 @@
   "description": "Stylelint sharable config for Zeebats projects",
   "keywords": [
     "stylelint",
-    "stylelintconfig",
+    "stylelint-config",
     "postcss"
   ],
   "repository": "https://github.com/zeebats/stylelint-config",
@@ -12,8 +12,7 @@
   "author": "Zeebats",
   "main": "index.js",
   "files": [
-    "index.js",
-    "README.md"
+    "index.js"
   ],
   "scripts": {
     "eslint": "eslint '**/*.js'",
