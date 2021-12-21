@@ -9,10 +9,10 @@
 This is a shareable config for [Stylelint](https://stylelint.io/). All the rules and configurations are already set. Rules can be overridden if needed.
 
 - [@zeebats/stylelint-config](#zeebatsstylelint-config)
-  - [:package: Installing](#package-installing)
-  - [:firecracker: Turning off rules](#firecracker-turning-off-rules)
-  - [:rocket: CLI usage](#rocket-cli-usage)
-  - [:pencil2: Editor / IDE integration](#pencil2-editor--ide-integration)
+  - [Installing](#package-installing)
+  - [Turning off rules](#firecracker-turning-off-rules)
+  - [CLI usage](#rocket-cli-usage)
+  - [Editor / IDE integration](#pencil2-editor--ide-integration)
     - [Visual Studio Code](#visual-studio-code)
       - [Autofix](#autofix)
       - [Additional Extensions](#additional-extensions)
@@ -23,12 +23,6 @@ Include the config into your project:
 
 ```shell
 npm install @zeebats/stylelint-config --save-dev --save-exact
-```
-
-Then install the dependencies that the config needs:
-
-```shell
-npx install-peerdeps --dev --extra-args="-E" @zeebats/stylelint-config
 ```
 
 In your project, create a `.stylelintrc.json` file with the following contents:
@@ -66,7 +60,7 @@ To use Stylelint in the command-line, add the following scripts to your projects
 
 ```json
 "scripts": {
-  "stylelint": "stylelint 'path/to/your/assets/**/*.{css,scss,vue}'",
+  "stylelint": "stylelint 'path/to/your/assets/**/*.{css,vue}'",
   "stylelint:fix": "npm run stylelint -- --fix",
 }
 ```
