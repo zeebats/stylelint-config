@@ -20,14 +20,6 @@ module.exports = {
         ],
         'declaration-block-semicolon-newline-after': 'always',
         'declaration-no-important': true,
-        'declaration-property-unit-allowed-list': [
-            {
-                'line-height': [],
-            },
-            {
-                severity: 'warning',
-            },
-        ],
         'declaration-property-value-disallowed-list': {
             'border': ['none'],
             'border-bottom': ['none'],
