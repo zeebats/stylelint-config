@@ -69,7 +69,12 @@ module.exports = {
         ],
         'selector-max-compound-selectors': 3,
         'selector-max-id': 0,
-        'selector-no-qualifying-type': true,
+        'selector-no-qualifying-type': [
+            true,
+            {
+                ignore: ['attribute'],
+            },
+        ],
         'selector-pseudo-class-no-unknown': [
             true,
             {
