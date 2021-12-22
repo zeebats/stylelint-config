@@ -24,6 +24,7 @@ module.exports = {
         },
         'font-weight-notation': 'numeric',
         'indentation': 4,
+        'max-line-length': null,
         'max-nesting-depth': [
             4,
             {
