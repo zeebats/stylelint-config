@@ -1,6 +1,6 @@
 {
   "name": "@zeebats/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylelint sharable config for Zeebats projects",
   "keywords": [
     "stylelint",
@@ -21,7 +21,7 @@
     "update:interactive": "npx npm-check -uE"
   },
   "devDependencies": {
-    "@zeebats/eslint-config": "1.0.0",
+    "@zeebats/eslint-config": "1.0.2",
     "lint-staged": "12.1.3",
     "simple-git-hooks": "2.7.0",
     "tape": "5.3.2"
