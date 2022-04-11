@@ -24,7 +24,7 @@
     "@zeebats/eslint-config": "1.0.2",
     "lint-staged": "12.3.7",
     "simple-git-hooks": "2.7.0",
-    "tape": "5.5.2"
+    "tape": "5.5.3"
   },
   "peerDependencies": {
     "postcss-html": "^1.0.0",
