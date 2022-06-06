@@ -21,7 +21,7 @@
     "update:interactive": "npx npm-check -uE"
   },
   "devDependencies": {
-    "@zeebats/eslint-config": "1.0.2",
+    "@zeebats/eslint-config": "1.1.0",
     "lint-staged": "13.0.0",
     "simple-git-hooks": "2.8.0",
     "tape": "5.5.3"
