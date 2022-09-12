@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "baseBranches": [
+    "updates"
+  ],
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":disableDependencyDashboard",
+    "group:allNonMajor"
+  ],
+  "packageRules": [
+    {
+      "automerge": true,
+      "automergeType": "branch",
+      "matchDepTypes": [
+        "peerDependencies"
+      ],
+      "rangeStrategy": "replace"
+    }
+  ],
+  "schedule": [
+    "before 6am on Sunday"
+  ],
+  "timezone": "Europe/Amsterdam"
+}
