@@ -7,7 +7,8 @@ const config = require('../index');
 
 test('load config in stylelint to validate all rule syntax is correct', async t => {
 	const results = await stylelint.lint({
-		code: 'a {\n    color: #000;\n    z-index: 1;\n}\n',
+		/* eslint-disable-next-line no-tabs */
+		code: 'a {\n	color: #000;\n	z-index: 1;\n}\n',
 		config,
 	});
 
