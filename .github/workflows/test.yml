@@ -12,9 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
       - uses: actions/setup-node@v3
         with:
-          node-version: 'lts/*'
-          cache: 'npm'
-      - run: npm install
-      - run: npm test
+          node-version-file: ".nvmrc"
+          cache: "pnpm"
+      - run: "pnpm install --no-frozen-lockfile"
+      - run: "pnpm test"
