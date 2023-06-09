@@ -2,7 +2,7 @@
 
 module.exports = {
 	extends: ['stylelint-config-standard'],
-	plugins: ['stylelint-order'],
+	plugins: ['stylelint-order', 'stylelint-stylistic'],
 	rules: {
 		'color-named': 'never',
 		'declaration-block-no-redundant-longhand-properties': [
