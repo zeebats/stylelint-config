@@ -1,6 +1,6 @@
 {
 	"name": "@zeebats/stylelint-config",
-	"version": "1.2.0-beta.2",
+	"version": "1.2.0-beta.3",
 	"description": "Stylelint sharable config for Zeebats projects",
 	"keywords": [
 		"stylelint",
@@ -12,7 +12,7 @@
 	"author": "Zeebats",
 	"main": "index.js",
 	"bin": {
-		"stylelint": "./node_modules/.bin/stylelint"
+		"stylelint": "node_modules/.bin/stylelint"
 	},
 	"files": [
 		"index.js"
