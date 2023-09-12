@@ -1,6 +1,6 @@
 {
 	"name": "@zeebats/stylelint-config",
-	"version": "1.2.0-beta.8",
+	"version": "1.2.0-beta.9",
 	"description": "Stylelint sharable config for Zeebats projects",
 	"keywords": [
 		"stylelint",
@@ -21,16 +21,16 @@
 	},
 	"devDependencies": {
 		"@zeebats/eslint-config": "1.3.1",
-		"lint-staged": "13.2.2",
-		"simple-git-hooks": "2.8.1",
-		"tape": "5.6.3"
+		"lint-staged": "13.3.0",
+		"simple-git-hooks": "2.9.0",
+		"tape": "5.6.6"
 	},
 	"peerDependencies": {
 		"postcss-html": "1.5.0",
-		"stylelint": "15.7.0",
+		"stylelint": "15.10.3",
 		"stylelint-config-html": "1.1.0",
-		"stylelint-config-standard": "33.0.0",
+		"stylelint-config-standard": "34.0.0",
 		"stylelint-order": "6.0.3",
-		"stylelint-stylistic": "0.4.2"
+		"stylelint-stylistic": "0.4.3"
 	}
 }
