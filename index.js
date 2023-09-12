@@ -1,7 +1,7 @@
 /* eslint-disable unicorn/prefer-module */
 
 module.exports = {
-	extends: ['stylelint-config-standard'],
+	extends: ['stylelint-config-standard', 'stylelint-config-html'],
 	plugins: ['stylelint-order', 'stylelint-stylistic'],
 	rules: {
 		'color-named': 'never',

@@ -1,6 +1,6 @@
 {
 	"name": "@zeebats/stylelint-config",
-	"version": "1.2.0-beta.7",
+	"version": "1.2.0-beta.8",
 	"description": "Stylelint sharable config for Zeebats projects",
 	"keywords": [
 		"stylelint",
