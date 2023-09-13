@@ -1,29 +1,17 @@
 /* eslint-disable unicorn/prefer-module */
 
 module.exports = {
-	extends: ['stylelint-config-standard'],
-	overrides: [
-		{
-			customSyntax: 'postcss-html',
-			files: [
-				'*.vue',
-				'**/*.vue',
-			],
-		},
-	],
-	plugins: ['stylelint-order'],
+	extends: ['stylelint-config-standard', 'stylelint-config-html'],
+	plugins: ['stylelint-order', 'stylelint-stylistic'],
 	rules: {
 		'color-named': 'never',
 		'declaration-block-no-redundant-longhand-properties': [
 			true,
 			{ ignoreShorthands: ['/grid/'] },
 		],
-		'declaration-block-semicolon-newline-after': 'always',
 		'declaration-no-important': true,
 		'declaration-property-value-disallowed-list': { '/^border/': ['none'] },
 		'font-weight-notation': 'numeric',
-		'indentation': 'tab',
-		'max-line-length': null,
 		'max-nesting-depth': [
 			4,
 			{
@@ -85,6 +73,9 @@ module.exports = {
 				ignoreTypes: [/\^+/],
 			},
 		],
-		'string-quotes': 'single',
+		'stylistic/declaration-block-semicolon-newline-after': 'always',
+		'stylistic/indentation': 'tab',
+		'stylistic/max-line-length': null,
+		'stylistic/string-quotes': 'single',
 	},
 };
