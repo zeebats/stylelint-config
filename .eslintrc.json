@@ -1,1 +1,9 @@
-{ "extends": ["@zeebats"] }
+{
+	"extends": ["@zeebats"],
+	"rules": {
+		"import/no-unresolved": [
+			"error",
+			{ "ignore": ["^node:"] }
+		]
+	}
+}
