@@ -18,13 +18,12 @@
 	"scripts": {
 		"eslint": "eslint '**/*.js'",
 		"eslint:fix": "npm run eslint -- --fix",
-		"test": "tape tests/*.js"
+		"test": "node --test tests/*.js"
 	},
 	"devDependencies": {
 		"@zeebats/eslint-config": "1.4.0",
 		"lint-staged": "15.2.2",
-		"simple-git-hooks": "2.11.1",
-		"tape": "5.7.5"
+		"simple-git-hooks": "2.11.1"
 	},
 	"peerDependencies": {
 		"@stylistic/stylelint-plugin": "^2.0.0",

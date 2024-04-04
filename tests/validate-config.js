@@ -1,21 +1,18 @@
-/* eslint-disable unicorn/prefer-module */
+import assert from 'node:assert/strict';
+import { it } from 'node:test';
+import stylelint from 'stylelint';
 
-const stylelint = require('stylelint');
-const test = require('tape');
+import config from '../index.js';
 
-const config = require('../index');
-
-test('load config in stylelint to validate all rule syntax is correct', async t => {
+it('loads config in stylelint to validate all rule syntax is correct', async () => {
 	const results = await stylelint.lint({
-		/* eslint-disable-next-line no-tabs */
-		code: 'a {\n	color: #000;\n	z-index: 1;\n}\n',
+		code: 'a {\n\tcolor: #000;\n\tz-index: 1;\n}\n',
 		config,
 	});
 
-	t.false(results.errored);
-	t.end();
+	assert.equal(results.errored, false, `
+	Expected values to be strictly equal: \`results.errored === false\`
 
-	if (results.errored) {
-		t.comment(results.output);
-	}
+	Stylelint debug trace: ${JSON.stringify(JSON.parse(results.report), null, '\t')}
+	`);
 });
