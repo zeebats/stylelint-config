@@ -18,6 +18,7 @@
 	"scripts": {
 		"eslint": "eslint '**/*.js'",
 		"eslint:fix": "npm run eslint -- --fix",
+		"prepare": "simple-git-hooks",
 		"test": "node --test tests/*.js"
 	},
 	"devDependencies": {
