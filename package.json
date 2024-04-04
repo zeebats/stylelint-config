@@ -10,6 +10,7 @@
 	"repository": "https://github.com/zeebats/stylelint-config",
 	"license": "MIT",
 	"author": "Zeebats",
+	"type": "module",
 	"main": "index.js",
 	"files": [
 		"index.js"
@@ -26,11 +27,11 @@
 		"tape": "5.7.5"
 	},
 	"peerDependencies": {
+		"@stylistic/stylelint-plugin": "^2.0.0",
 		"postcss-html": "^1.0.0",
 		"stylelint": "^16.0.0",
 		"stylelint-config-html": "^1.0.0",
 		"stylelint-config-standard": "^36.0.0",
-		"stylelint-order": "^6.0.0",
-		"stylelint-stylistic": "^0.4.0"
+		"stylelint-order": "^6.0.0"
 	}
 }
