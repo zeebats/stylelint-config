@@ -25,8 +25,8 @@
 		"@commitlint/cli": "19.8.0",
 		"@commitlint/config-conventional": "19.8.0",
 		"@zeebats/eslint-config": "1.4.0",
-		"lint-staged": "15.5.0",
-		"simple-git-hooks": "2.11.1"
+		"lint-staged": "15.5.1",
+		"simple-git-hooks": "2.12.1"
 	},
 	"peerDependencies": {
 		"@stylistic/stylelint-plugin": "^3.0.0",
