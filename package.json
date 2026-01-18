@@ -29,7 +29,7 @@
 		"simple-git-hooks": "2.12.1"
 	},
 	"peerDependencies": {
-		"@stylistic/stylelint-plugin": "^3.0.0",
+		"@stylistic/stylelint-plugin": "^5.0.0",
 		"postcss-html": "^1.0.0",
 		"stylelint": "^16.0.0",
 		"stylelint-config-html": "^1.0.0",
